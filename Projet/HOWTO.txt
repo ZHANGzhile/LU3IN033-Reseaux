@@ -1,0 +1,24 @@
+                                               HOWTO
+
+- ZHANG zhile 21201131   Groupe5
+- ZHANG jiawen 21117173  Groupe5
+
+Notre programme est très simple à exécuter, vous devez d'abord installer python et avoir un enviornnement python3.
+
+Et puis, ouvrez le terminal  et se placez dans le répertoire de notre projet dans le terminal, tapez la commande *** make graph ***, et vous pouvez obtenir notre interface visuelle.
+
+L'interface initiale est déroutante, ce qui est la caractéristique de cette fenêtre, mais ne vous inquiétez pas, il vous suffit de cliquer sur le bouton d'option à côté, comme **tous**, et tous nos résultats d'analyse s'afficheront automatiquement, il y a environ 5000 trames, donc il y en aura du long, et après avoir cliqué, vous constaterez aussi que ces boutons de sélection sont normaux.
+
+Et nous avons réalisé que lorsqu'il y a plusieurs adresses IP, toutes les trames sont affichées ensemble en même temps, vous pouvez donc voir une barre de défilement qui glisse horizontalement en bas, et vous pouvez voir d'autres adresses IP lorsque vous glissez horizontalement.
+
+De même, par exemple, lorsque nous cliquons sur le bouton du Filter **http**, il n'affichera que la trame avec les informations de requête et de réponse http.
+
+Dans FilterIP, c'est la même chose. Lorsque vous cliquez sur n'importe quelle adresse IP de destination, tous les boutons IP reviendront à la normale, et toutes les trames entre la machine locale et la machine/serveur de cette adresse IP seront affichées sur la droite. FilterIP et Filter sont deux parties indépendantes, vous sélectionnez une adresse ip et un filtre de protocole en même temps, il n'affichera indépendamment que toutes les trames sous cette adresse ip ou toutes les trames sous ce protocole.
+
+Lorsque vous souhaitez fermer, cliquez simplement sur le bouton de fermeture en haut à gauche de la fenêtre ou terminez la commande du terminal.
+
+Lorsque vous avez terminé d'exécuter, vous pouvez taper la commande ***make clean*** pour supprimer le cache python après l'exécution.
+
+**Remarque:**
+
+Ce n'est que lorsque le bouton de **tous** est cliqué que les résultats d'analyse seront enregistrés dans **trame_analyse.txt.** Les autres boutons ne sont-ils pas configurés pour enregistrer les résultats d'analyse, car ils se trouvent dans **tous**
